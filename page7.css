@@ -1,0 +1,36 @@
+div
+{
+    /* background-color: gray; */
+    padding: 20px;
+    width: 50%;
+    margin:100px auto;
+    border: 2px solid olive;
+}
+input[type="text"] , input[type="password"] 
+{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+input[type="text"]
+{
+    width: 60%;
+}
+
+input[type="submit"]
+{
+    background-color: olive;
+    color: white;
+    border: none;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: white;
+    color: black;
+    border: 1px solid olive;
+    cursor: pointer;
+}
